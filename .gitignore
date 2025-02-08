@@ -1,2 +1,42 @@
 # Virtual environment
 venv/
+
+# dependencies
+contacts-frontend/node_modules
+contacts-frontend/.pnp
+contacts-frontend/.pnp.*
+contacts-frontend/.yarn/*
+!contacts-frontend/.yarn/patches
+!contacts-frontend/.yarn/plugins
+!contacts-frontend/.yarn/releases
+!contacts-frontend/.yarn/versions
+
+# testing
+contacts-frontend/coverage
+
+# next.js
+contacts-frontend/.next/
+contacts-frontend/out/
+
+# production
+contacts-frontend/build
+
+# misc
+contacts-frontend/.DS_Store
+contacts-frontend/*.pem
+
+# debug
+contacts-frontend/npm-debug.log*
+contacts-frontend/yarn-debug.log*
+contacts-frontend/yarn-error.log*
+contacts-frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+contacts-frontend/.env*
+
+# vercel
+contacts-frontend/.vercel
+
+# typescript
+contacts-frontend/*.tsbuildinfo
+contacts-frontend/next-env.d.ts
