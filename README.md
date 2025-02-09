@@ -65,7 +65,7 @@ Before starting the installation, ensure all [System Requirements](#system-requi
 ### Backend Setup
 1. Clone the repository:
 
-- ```git clone <repository-url>```
+- ```git clone https://github.com/motolaji/contact-management.git ```
 - ```cd contact-management-system```
 
 2. Create and activate a virtual environment:
